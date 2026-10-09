@@ -1,0 +1,99 @@
+body{
+    background-color: #9757eb;
+    font-family:'𝔉𝔯𝔞𝔨𝔱𝔲𝔯';
+}
+
+h1{
+    color: #fff;
+    font-family:"ᑕᗩᘉᗩᗞIᗩᘉ";
+    font-size:45px;
+    text-align:center;
+    text-shadow: 2px 2px 4px #000000;
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% { color: #fff; }
+    25% { color: #6aebd9; }
+    50% { color: #28c0ac; }
+    75% { color: #00bda4; }
+    100% { color: #fff; }
+}
+
+h2{
+    color: #fff;
+    font-family:"ᑕᗩᘉᗩᗞIᗩᘉ";
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align:center;
+}
+
+p{
+    color: #fff;
+    font-family:"ᑕᗩᘉᗩᗞIᗩᘉ";
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align:center;
+}
+
+ul{
+    color: #fff;
+    font-family:"ᑕᗩᘉᗩᗞIᗩᘉ";
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    list-style: none;
+}
+
+
+img[alt="Nerd_girl"] {
+    border:#41ffe6; 
+    border-width: 7px;
+    border-style: outset ;
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+}
+
+a{
+    color: #e5ff00;
+    font-family:"ᑕᗩᘉᗩᗞIᗩᘉ";
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+body{
+    text-align:center;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.kirby_container {
+    max-height: 12em;
+    max-width: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    background-position: center center;
+    background-size: cover;
+    transition: all ease 0.2s;
+    user-select: none;
+    border-radius: 50%;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+
+.kirby_container:hover {
+    cursor: pointer;
+}
+
+.kirby_container:active {
+    transform: scale(0.95);
+}
